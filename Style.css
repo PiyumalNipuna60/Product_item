@@ -30,7 +30,7 @@ body > header {
 body>header>div{
     font-size: 168%;
     position: absolute;
-    top: 2vh;
+    top: 1.7vh;
     left: 2vw;
     /* bottom: 0; */
     margin: auto;
@@ -85,15 +85,8 @@ body > header > nav > ul > li:hover i {
     width: 100vw;
     position: static;
     top: 2rem;
-    background-color: #ff253a;
 }
-#Home>div {
-    height: 96%;
-    width: 100vw;
-    position: relative;
-    top: 2.2rem;
-    background-color: green;
-}
+
 
 #About {
     height: 100vh;
