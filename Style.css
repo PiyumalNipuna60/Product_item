@@ -137,7 +137,7 @@ body > header > nav > ul > li:hover i {
 
 #About>aside>div:nth-child(1){
     background-color: darkgray;
-    transform: rotate(-45deg);
+    transform: rotate(-53deg);
 }
 #About>aside>div:nth-child(1)>div{
     width: 15rem;
@@ -146,7 +146,7 @@ body > header > nav > ul > li:hover i {
     right: 0px;
     margin: auto;
     height: 15rem;
-    transform: rotate(-46deg);
+    transform: rotate(-38deg);
     background-color: red;
     border: 5px;
 }
@@ -168,10 +168,22 @@ body > header > nav > ul > li:hover i {
 
 
 #About>aside>div:nth-child(2){
-    left: 23rem;
+    left: 24rem;
     background-color: darkgray;
+    transform: rotate(-53deg);
 }
 #About>aside>div:nth-child(2)>div{
+    width: 15rem;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 15rem;
+    transform: rotate(-38deg);
+    background-color: red;
+    border: 5px;
+}
+#About>aside>div:nth-child(2)>div>div{
     width: 14rem;
     position: relative;
     background-repeat: no-repeat, repeat;
@@ -181,14 +193,31 @@ body > header > nav > ul > li:hover i {
     right: 0;
     margin: auto;
     height: 14rem;
+    transform: rotate(90deg);
+    border: 5px;
+    margin-top: 8px;
+    border-radius: 18px;
 }
 
 
 #About>aside>div:nth-child(3){
-    left: 29rem;
+    left: 30rem;
     background-color: darkgray;
+    transform: rotate(-53deg);
+
 }
 #About>aside>div:nth-child(3)>div{
+    width: 15rem;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 15rem;
+    transform: rotate(-38deg);
+    background-color: red;
+    border: 5px;
+}
+#About>aside>div:nth-child(3)>div>div{
     width: 14rem;
     position: relative;
     background-repeat: no-repeat, repeat;
@@ -198,6 +227,10 @@ body > header > nav > ul > li:hover i {
     right: 0;
     margin: auto;
     height: 14rem;
+    transform: rotate(90deg);
+    border: 5px;
+    margin-top: 8px;
+    border-radius: 18px;
 }
 
 #Description {
