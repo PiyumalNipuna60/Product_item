@@ -137,18 +137,33 @@ body > header > nav > ul > li:hover i {
 
 #About>aside>div:nth-child(1){
     background-color: darkgray;
+    transform: rotate(-45deg);
 }
-
 #About>aside>div:nth-child(1)>div{
+    width: 15rem;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 15rem;
+    transform: rotate(-46deg);
+    background-color: red;
+    border: 5px;
+}
+#About>aside>div:nth-child(1)>div>div{
     width: 14rem;
     position: relative;
     background-repeat: no-repeat, repeat;
     background-image: url(assets/image/IMG-20220818-WA0015.jpg);
     background-size: 102% 100%;
-    left: 0;
-    right: 0;
+    left: 0px;
+    right: 0px;
     margin: auto;
     height: 14rem;
+    transform: rotate(90deg);
+    border: 5px;
+    margin-top: 8px;
+    border-radius: 18px;
 }
 
 
