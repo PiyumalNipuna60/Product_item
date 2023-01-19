@@ -135,12 +135,54 @@ body > header > nav > ul > li:hover i {
     margin: auto;
 }
 
+#About>aside>div:nth-child(1){
+    background-color: darkgray;
+}
+
+#About>aside>div:nth-child(1)>div{
+    width: 14rem;
+    position: relative;
+    background-repeat: no-repeat, repeat;
+    background-image: url(assets/image/IMG-20220818-WA0015.jpg);
+    background-size: 102% 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 14rem;
+}
+
+
 #About>aside>div:nth-child(2){
     left: 23rem;
+    background-color: darkgray;
 }
+#About>aside>div:nth-child(2)>div{
+    width: 14rem;
+    position: relative;
+    background-repeat: no-repeat, repeat;
+    background-image: url(assets/image/IMG-20220818-WA0014.jpg);
+    background-size: 102% 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 14rem;
+}
+
 
 #About>aside>div:nth-child(3){
     left: 29rem;
+    background-color: darkgray;
+}
+#About>aside>div:nth-child(3)>div{
+    width: 14rem;
+    position: relative;
+    background-repeat: no-repeat, repeat;
+    background-image: url(assets/image/IMG-20220815-WA0068.jpg);
+    background-size: 102% 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 14rem;
 }
 
 #Description {
